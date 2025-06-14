@@ -1,0 +1,984 @@
+{
+  "url": "demos.frontlabs.cloud",
+  "btfs": {
+    "base": false,
+    "children": {
+      "accesskey": {
+        "base": false,
+        "children": {
+          "delete": {
+            "base": false
+          },
+          "disable": {
+            "base": false
+          },
+          "enable": {
+            "base": false
+          },
+          "generate": {
+            "base": false
+          },
+          "get": {
+            "base": false
+          },
+          "list": {
+            "base": false
+          },
+          "reset": {
+            "base": false
+          }
+        }
+      },
+      "add": {
+        "base": false
+      },
+      "backup": {
+        "base": false
+      },
+      "bitswap": {
+        "base": false,
+        "children": {
+          "ledger": {
+            "base": false
+          },
+          "reprovide": {
+            "base": false
+          },
+          "stat": {
+            "base": false
+          },
+          "wantlist": {
+            "base": false
+          }
+        }
+      },
+      "bittorrent": {
+        "base": false,
+        "children": {
+          "bencode": {
+            "base": false
+          },
+          "download": {
+            "base": false
+          },
+          "metainfo": {
+            "base": false
+          },
+          "scrape": {
+            "base": false
+          },
+          "serve": {
+            "base": false
+          }
+        }
+      },
+      "block": {
+        "base": false,
+        "children": {
+          "get": {
+            "base": false
+          },
+          "put": {
+            "base": false
+          },
+          "rm": {
+            "base": false
+          },
+          "stat": {
+            "base": false
+          }
+        }
+      },
+      "bootstrap": {
+        "base": false,
+        "children": {
+          "add": {
+            "base": false,
+            "children": {
+              "default": {
+                "base": false
+              }
+            }
+          },
+          "list": {
+            "base": false
+          },
+          "rm": {
+            "base": false,
+            "children": {
+              "all": {
+                "base": false
+              }
+            }
+          }
+        }
+      },
+      "bttc": {
+        "base": false,
+        "children": {
+          "btt2wbtt": {
+            "base": false
+          },
+          "send-btt-to": {
+            "base": false
+          },
+          "send-token-to": {
+            "base": false
+          },
+          "send-wbtt-to": {
+            "base": false
+          },
+          "wbtt2btt": {
+            "base": false
+          }
+        }
+      },
+      "cat": {
+        "base": false
+      },
+      "cheque": {
+        "base": false,
+        "children": {
+          "all_token_balance": {
+            "base": false
+          },
+          "bttbalance": {
+            "base": false
+          },
+          "cash": {
+            "base": false
+          },
+          "cashlist": {
+            "base": false
+          },
+          "cashstatus": {
+            "base": false
+          },
+          "chaininfo": {
+            "base": false
+          },
+          "fix_cheque_cashout": {
+            "base": false
+          },
+          "price": {
+            "base": false
+          },
+          "price-all": {
+            "base": false
+          },
+          "receive": {
+            "base": false
+          },
+          "receive-history-list": {
+            "base": false
+          },
+          "receive-history-peer": {
+            "base": false
+          },
+          "receive-history-stats": {
+            "base": false
+          },
+          "receive-history-stats-all": {
+            "base": false
+          },
+          "receive-total-count": {
+            "base": false
+          },
+          "receivelist": {
+            "base": false
+          },
+          "receivelistall": {
+            "base": false
+          },
+          "send": {
+            "base": false
+          },
+          "send-history-list": {
+            "base": false
+          },
+          "send-history-peer": {
+            "base": false
+          },
+          "send-history-stats": {
+            "base": false
+          },
+          "send-history-stats-all": {
+            "base": false
+          },
+          "send-total-count": {
+            "base": false
+          },
+          "sendlist": {
+            "base": false
+          },
+          "sendlistall": {
+            "base": false
+          },
+          "stats": {
+            "base": false
+          },
+          "stats-all": {
+            "base": false
+          },
+          "token_balance": {
+            "base": false
+          }
+        }
+      },
+      "cid": {
+        "base": false,
+        "children": {
+          "base32": {
+            "base": false
+          },
+          "bases": {
+            "base": false
+          },
+          "codecs": {
+            "base": false
+          },
+          "format": {
+            "base": false
+          },
+          "hashes": {
+            "base": false
+          }
+        }
+      },
+      "commands": {
+        "base": false
+      },
+      "config": {
+        "base": false,
+        "children": {
+          "edit": {
+            "base": false
+          },
+          "optin": {
+            "base": false
+          },
+          "optout": {
+            "base": false
+          },
+          "replace": {
+            "base": false
+          },
+          "reset": {
+            "base": false
+          },
+          "show": {
+            "base": false
+          },
+          "storage-host-enable": {
+            "base": false
+          },
+          "sync-chain-info": {
+            "base": false
+          },
+          "sync-simple-mode": {
+            "base": false
+          }
+        }
+      },
+      "daemon": {
+        "base": false
+      },
+      "dag": {
+        "base": false,
+        "children": {
+          "export": {
+            "base": false
+          },
+          "get": {
+            "base": false
+          },
+          "import": {
+            "base": false
+          },
+          "put": {
+            "base": false
+          },
+          "resolve": {
+            "base": false
+          },
+          "stat": {
+            "base": false
+          }
+        }
+      },
+      "decrypt": {
+        "base": false
+      },
+      "dht": {
+        "base": false,
+        "children": {
+          "findpeer": {
+            "base": false
+          },
+          "findprovs": {
+            "base": false
+          },
+          "get": {
+            "base": false
+          },
+          "provide": {
+            "base": false
+          },
+          "put": {
+            "base": false
+          },
+          "query": {
+            "base": false
+          }
+        }
+      },
+      "diag": {
+        "base": false,
+        "children": {
+          "cmds": {
+            "base": false,
+            "children": {
+              "clear": {
+                "base": false
+              },
+              "set-time": {
+                "base": false
+              }
+            }
+          },
+          "sys": {
+            "base": false
+          }
+        }
+      },
+      "dns": {
+        "base": false
+      },
+      "encrypt": {
+        "base": false
+      },
+      "file": {
+        "base": false,
+        "children": {
+          "ls": {
+            "base": false
+          }
+        }
+      },
+      "files": {
+        "base": false,
+        "children": {
+          "chcid": {
+            "base": false
+          },
+          "cp": {
+            "base": false
+          },
+          "flush": {
+            "base": false
+          },
+          "ls": {
+            "base": false
+          },
+          "mkdir": {
+            "base": false
+          },
+          "mv": {
+            "base": false
+          },
+          "read": {
+            "base": false
+          },
+          "rm": {
+            "base": false
+          },
+          "stat": {
+            "base": false
+          },
+          "write": {
+            "base": false
+          }
+        }
+      },
+      "filestore": {
+        "base": false,
+        "children": {
+          "dups": {
+            "base": false
+          },
+          "ls": {
+            "base": false
+          },
+          "verify": {
+            "base": false
+          }
+        }
+      },
+      "get": {
+        "base": false
+      },
+      "guard": {
+        "base": false,
+        "children": {
+          "test": {
+            "base": false,
+            "children": {
+              "send-challenges": {
+                "base": false
+              }
+            }
+          }
+        }
+      },
+      "id": {
+        "base": false
+      },
+      "init": {
+        "base": false
+      },
+      "key": {
+        "base": false,
+        "children": {
+          "gen": {
+            "base": false
+          },
+          "list": {
+            "base": false
+          },
+          "rename": {
+            "base": false
+          },
+          "rm": {
+            "base": false
+          }
+        }
+      },
+      "log": {
+        "base": false,
+        "children": {
+          "level": {
+            "base": false
+          },
+          "ls": {
+            "base": false
+          },
+          "tail": {
+            "base": false
+          }
+        }
+      },
+      "ls": {
+        "base": false
+      },
+      "metadata": {
+        "base": false,
+        "children": {
+          "add": {
+            "base": false
+          },
+          "rm": {
+            "base": false
+          }
+        }
+      },
+      "mount": {
+        "base": false
+      },
+      "multibase": {
+        "base": false,
+        "children": {
+          "decode": {
+            "base": false
+          },
+          "encode": {
+            "base": false
+          },
+          "list": {
+            "base": false
+          },
+          "transcode": {
+            "base": false
+          }
+        }
+      },
+      "name": {
+        "base": false,
+        "children": {
+          "publish": {
+            "base": false
+          },
+          "pubsub": {
+            "base": false,
+            "children": {
+              "cancel": {
+                "base": false
+              },
+              "state": {
+                "base": false
+              },
+              "subs": {
+                "base": false
+              }
+            }
+          },
+          "resolve": {
+            "base": false
+          }
+        }
+      },
+      "network": {
+        "base": false
+      },
+      "object": {
+        "base": false,
+        "children": {
+          "data": {
+            "base": false
+          },
+          "diff": {
+            "base": false
+          },
+          "get": {
+            "base": false
+          },
+          "links": {
+            "base": false
+          },
+          "new": {
+            "base": false
+          },
+          "patch": {
+            "base": false,
+            "children": {
+              "add-link": {
+                "base": false
+              },
+              "append-data": {
+                "base": false
+              },
+              "rm-link": {
+                "base": false
+              },
+              "set-data": {
+                "base": false
+              }
+            }
+          },
+          "put": {
+            "base": false
+          },
+          "stat": {
+            "base": false
+          }
+        }
+      },
+      "p2p": {
+        "base": false,
+        "children": {
+          "close": {
+            "base": false
+          },
+          "forward": {
+            "base": false
+          },
+          "handshake": {
+            "base": false
+          },
+          "listen": {
+            "base": false
+          },
+          "ls": {
+            "base": false
+          },
+          "stream": {
+            "base": false,
+            "children": {
+              "close": {
+                "base": false
+              },
+              "ls": {
+                "base": false
+              }
+            }
+          }
+        }
+      },
+      "pin": {
+        "base": false,
+        "children": {
+          "add": {
+            "base": false
+          },
+          "ls": {
+            "base": false
+          },
+          "rm": {
+            "base": false
+          },
+          "update": {
+            "base": false
+          },
+          "verify": {
+            "base": false
+          }
+        }
+      },
+      "ping": {
+        "base": true
+      },
+      "pubsub": {
+        "base": false,
+        "children": {
+          "ls": {
+            "base": false
+          },
+          "peers": {
+            "base": false
+          },
+          "pub": {
+            "base": false
+          },
+          "sub": {
+            "base": false
+          }
+        }
+      },
+      "recovery": {
+        "base": false
+      },
+      "refs": {
+        "base": false,
+        "children": {
+          "local": {
+            "base": false
+          }
+        }
+      },
+      "repo": {
+        "base": false,
+        "children": {
+          "fsck": {
+            "base": false
+          },
+          "gc": {
+            "base": false
+          },
+          "stat": {
+            "base": false
+          },
+          "verify": {
+            "base": false
+          },
+          "version": {
+            "base": false
+          }
+        }
+      },
+      "resolve": {
+        "base": false
+      },
+      "restart": {
+        "base": false
+      },
+      "rm": {
+        "base": false
+      },
+      "settlement": {
+        "base": false,
+        "children": {
+          "list": {
+            "base": false
+          },
+          "peer": {
+            "base": false
+          }
+        }
+      },
+      "shutdown": {
+        "base": false
+      },
+      "stats": {
+        "base": false,
+        "children": {
+          "bitswap": {
+            "base": false
+          },
+          "bw": {
+            "base": false
+          },
+          "dht": {
+            "base": false
+          },
+          "repo": {
+            "base": false
+          }
+        }
+      },
+      "statuscontract": {
+        "base": false,
+        "children": {
+          "config": {
+            "base": false
+          },
+          "daily_last_report_time": {
+            "base": false
+          },
+          "daily_report_list": {
+            "base": false
+          },
+          "daily_report_online_server": {
+            "base": false
+          },
+          "daily_total": {
+            "base": false
+          },
+          "lastinfo": {
+            "base": false
+          },
+          "report_online_server": {
+            "base": false
+          },
+          "reportlist": {
+            "base": false
+          },
+          "total": {
+            "base": false
+          }
+        }
+      },
+      "storage": {
+        "base": false,
+        "children": {
+          "announce": {
+            "base": false
+          },
+          "challenge": {
+            "base": false,
+            "children": {
+              "request": {
+                "base": false
+              },
+              "response": {
+                "base": false
+              }
+            }
+          },
+          "contracts": {
+            "base": false,
+            "children": {
+              "list": {
+                "base": false
+              },
+              "stat": {
+                "base": false
+              },
+              "sync": {
+                "base": false
+              }
+            }
+          },
+          "dcrepair": {
+            "base": false,
+            "children": {
+              "request": {
+                "base": false
+              },
+              "response": {
+                "base": false
+              }
+            }
+          },
+          "hosts": {
+            "base": false,
+            "children": {
+              "info": {
+                "base": false
+              },
+              "sync": {
+                "base": false
+              }
+            }
+          },
+          "info": {
+            "base": false
+          },
+          "path": {
+            "base": false,
+            "children": {
+              "capacity": {
+                "base": false
+              },
+              "list": {
+                "base": false
+              },
+              "migrate": {
+                "base": false
+              },
+              "mkdir": {
+                "base": false
+              },
+              "status": {
+                "base": false
+              },
+              "volumes": {
+                "base": false
+              }
+            }
+          },
+          "stats": {
+            "base": false,
+            "children": {
+              "info": {
+                "base": false
+              },
+              "list": {
+                "base": false
+              },
+              "sync": {
+                "base": false
+              }
+            }
+          },
+          "upload": {
+            "base": false,
+            "children": {
+              "cheque": {
+                "base": false
+              },
+              "getcontractbatch": {
+                "base": false
+              },
+              "getunsigned": {
+                "base": false
+              },
+              "init": {
+                "base": false
+              },
+              "recvcontract": {
+                "base": false
+              },
+              "repair": {
+                "base": false
+              },
+              "sign": {
+                "base": false
+              },
+              "signcontractbatch": {
+                "base": false
+              },
+              "status": {
+                "base": false
+              },
+              "supporttokens": {
+                "base": false
+              }
+            }
+          }
+        }
+      },
+      "swarm": {
+        "base": false,
+        "children": {
+          "addrs": {
+            "base": false,
+            "children": {
+              "listen": {
+                "base": false
+              },
+              "local": {
+                "base": false
+              }
+            }
+          },
+          "connect": {
+            "base": false
+          },
+          "disconnect": {
+            "base": false
+          },
+          "filters": {
+            "base": false,
+            "children": {
+              "add": {
+                "base": false
+              },
+              "rm": {
+                "base": false
+              }
+            }
+          },
+          "peers": {
+            "base": true
+          }
+        }
+      },
+      "tar": {
+        "base": false,
+        "children": {
+          "add": {
+            "base": false
+          },
+          "cat": {
+            "base": false
+          }
+        }
+      },
+      "test": {
+        "base": false,
+        "children": {
+          "cheque": {
+            "base": false
+          },
+          "hosts": {
+            "base": false
+          },
+          "p2phandshake": {
+            "base": false
+          }
+        }
+      },
+      "urlstore": {
+        "base": false,
+        "children": {
+          "add": {
+            "base": false
+          }
+        }
+      },
+      "vault": {
+        "base": false,
+        "children": {
+          "address": {
+            "base": false
+          },
+          "balance": {
+            "base": false
+          },
+          "balance_all": {
+            "base": false
+          },
+          "deposit": {
+            "base": false
+          },
+          "upgrade": {
+            "base": false
+          },
+          "wbttbalance": {
+            "base": false
+          },
+          "withdraw": {
+            "base": false
+          }
+        }
+      },
+      "version": {
+        "base": false,
+        "children": {
+          "deps": {
+            "base": false
+          }
+        }
+      }
+    }
+  }
+}
