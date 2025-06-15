@@ -25,7 +25,7 @@ This grants necessary permissions to the hostname: `demos.frontlabs.cloud`.
 
 Or simply inject the permissions simply by pasting the [demo-permissions-link](https://raw.githubusercontent.com/Zap-browser/demo-zap-peer-ping-pong/refs/heads/main/injectionobject.json) in the url section of injection page.
 
-### 3. Open the Demo Page [Demo ping-pong](https://demos.frontlabs.cloud/demo)
+### 3. Open the Demo Page [Demo ping-pong](https://zap-browser.github.io/demo-zap-peer-ping-pong)
 
 Once you've injected the permissions, simply visit the demo page in the Zap Browser:
 
