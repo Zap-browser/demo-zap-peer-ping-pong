@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Toaster } from "@/components/ui/sonner"
 import './App.css'
 import Graph3DView from './GraphView'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Graph3DView />
+      <Toaster />
     </>
   )
 }
